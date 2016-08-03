@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/mydb?zeroDateTimeBehavior=convertToNull</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">r00tpa55</property>
+    <mapping class="com.pmo.pmoitserv.Model.Action"/>
+    <mapping class="com.pmo.pmoitserv.Model.Admin"/>
+    <mapping class="com.pmo.pmoitserv.Model.Chantier"/>
+    <mapping class="com.pmo.pmoitserv.Model.Compte"/>
+    <mapping class="com.pmo.pmoitserv.Model.Consultant"/>
+    <mapping class="com.pmo.pmoitserv.Model.Demande"/>
+    <mapping class="com.pmo.pmoitserv.Model.Etranger"/>
+    <mapping class="com.pmo.pmoitserv.Model.Intervenant"/>
+    <mapping class="com.pmo.pmoitserv.Model.Ordinaire"/>
+    <mapping class="com.pmo.pmoitserv.Model.Partenaire"/>
+    <mapping class="com.pmo.pmoitserv.Model.Pointsus"/>
+    <mapping class="com.pmo.pmoitserv.Model.Projet"/>
+    <mapping class="com.pmo.pmoitserv.Model.Risque"/>
+    <mapping class="com.pmo.pmoitserv.Model.Sousprojet"/>
+    <mapping class="com.pmo.pmoitserv.Model.Utilisateur"/>
+    
+    
+  </session-factory>
+</hibernate-configuration>

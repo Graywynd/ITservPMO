@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+  <schema-selection match-catalog="mydb"/>
+  <table-filter match-name="partenaire"/>
+  <table-filter match-name="ordinaire"/>
+  <table-filter match-name="etranger"/>
+  <table-filter match-name="admin"/>
+  <table-filter match-name="utilisateur_compte"/>
+  <table-filter match-name="compte"/>
+  <table-filter match-name="partenaire_compte"/>
+  <table-filter match-name="pointsus"/>
+  <table-filter match-name="demande"/>
+  <table-filter match-name="sousprojet"/>
+  <table-filter match-name="risque"/>
+  <table-filter match-name="consultant"/>
+  <table-filter match-name="chantier"/>
+  <table-filter match-name="utilisateur"/>
+  <table-filter match-name="action"/>
+  <table-filter match-name="intervenant"/>
+  <table-filter match-name="projet"/>
+</hibernate-reverse-engineering>
